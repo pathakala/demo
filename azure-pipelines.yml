@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'rhel7-x64'
+  vmImage: 'ubuntu-18.04'
 
 steps:
 - script: echo Hello, world!
